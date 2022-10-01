@@ -1,0 +1,18 @@
+[
+    {
+        "id": 2343,
+        "email": "esdras@lets.com.br",
+        "password": "lets123",
+        "name": "Esdras Aguilar",
+        "isAdm": false,
+        "roles": ["CHAR_SERVICE"]
+    },
+    {
+        "id": 4323,
+        "name": "Victor Menezes",
+        "email": "victor@lets.com.br",
+        "password": "123lets",
+        "isAdm": false,
+        "roles": ["CHAR_SERVICE", "LOCATION_SERVICE"]
+    }
+]

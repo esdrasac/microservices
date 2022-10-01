@@ -1,6 +1,7 @@
 const { characterAPI } = require('../config/api')
 class CharacterService {
     static async getChars(page) {
+        console.log(characterAPI)
         const { data } =  await characterAPI.get('', { params: { page }})
 
         const chars =  data.results.map(char => {
